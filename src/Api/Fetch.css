@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Ubuntu&family=Varela+Round&display=swap");
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif; 
+font-family: 'Nunito', sans-serif;*/
+
+.welcome {
+  text-align: center;
+  margin: 2%;
+  font-size: 50px;
+  font-family: "Nunito", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.location {
+  color: white;
+
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+}
+.form-control {
+  width: 20vw;
+}
+.form {
+  display: flex;
+}
+.null {
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+  font-size: 37px;
+  text-align: center;
+  color: red;
+}
+.mystyle {
+  border-radius: 30px;
+}
+@media screen and (max-width: 550px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .search {
+    margin-top: 10px;
+  }
+  .location-name {
+    width: 80vw;
+  }
+}
